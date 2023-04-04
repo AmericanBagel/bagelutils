@@ -1,6 +1,7 @@
 # Import modules
 import os
 import sys
+import shutil
 
 # Define the list of questions and the strings to be replaced
 questions = [
@@ -94,6 +95,16 @@ rename_files_and_folders(target_dir_path)
 
 # Tell user that boilerplate is prepared.
 print("Finished preparing boilerplate.")
+
+# Check if .git is a directory
+if os.path.isdir(".git"):
+    # Prompt the user for confirmation
+    answer = input("Do you want to remove .git? If you haven't messed with git, you can safely delete it. If you have messed with git, you probably know what you're doing. [y/N] ")
+    # Check if the answer is negative
+    if answer.lower() in ["n", "no", ""]:
+        # Delete .git recursively
+        shutil.rmtree(".git")
+        print(".git deleted successfully.")
 
 # Prompt the user for confirmation
 answer = input(f"Do you want to delete this script? [Y/n] ")
