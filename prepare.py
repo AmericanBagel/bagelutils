@@ -8,6 +8,10 @@ questions = [
         "What is this data pack's name/main namespace?", "<namespace>"
     ],
     [
+        "What is the pack format for this data pack? https://minecraft.fandom.com/wiki/Pack_format#Data_Pack",
+        "<pack_format>"
+    ]
+    [
         "What is a short description of your pack?", "<description>"
     ],
     [
