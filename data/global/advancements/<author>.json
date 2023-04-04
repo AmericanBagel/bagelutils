@@ -1,10 +1,10 @@
 {
     "display": {
-        "title": "AmericanBagel",
-        "description": "All American Data Packs!",
+        "title": "<author>",
+        "description": "<author_description>",
         "icon": {
             "item": "minecraft:player_head",
-            "nbt": "{SkullOwner: 'AmericanBagel'}"
+            "nbt": "{SkullOwner: '<author>'}"
         },
         "show_toast": false,
         "announce_to_chat": false

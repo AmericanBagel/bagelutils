@@ -1,14 +1,14 @@
 {
     "display": {
-        "title": "bagelutils",
-        "description": "A managerie of useful utilities and APIs. https://github.com/AmericanBagel/bagelutils",
+        "title": "<namespace>",
+        "description": "<description>",
         "icon": {
             "item": "minecraft:bread"
         },
         "announce_to_chat": false,
         "show_toast": false
     },
-    "parent": "global:americanbagel",
+    "parent": "global:<author>",
     "criteria": {
         "trigger": {
             "trigger": "minecraft:tick"
